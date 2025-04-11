@@ -52,8 +52,8 @@ An interactive analytics system for visualizing and querying **New York City veh
 | Endpoint                                             | Description                            |
 |------------------------------------------------------|----------------------------------------|
 | `/violations/summary?date=YYYY-MM-DD`               | Total violations and fines             |
-| `/violations/by-type?date=YYYY-MM-DD`               | Violation type distribution            |
-| `/violations/by-state?date=YYYY-MM-DD`              | State-wise distribution of violations  |
+| `/violations/type-distribution?date=YYYY-MM-DD`     | Violation type distribution            |
+| `/violations/state-distribution?date=YYYY-MM-DD`    | State-wise distribution of violations  |									       		       
 | `/violations/detail?summons_number=XXXXXXXXXX`      | Lookup details for a specific ticket   |
 
 ---
