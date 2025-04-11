@@ -1,4 +1,4 @@
-# NYC Vehicle Violation Dashboard
+# NYC Vehicle Violation System
 
 An interactive analytics system for visualizing and querying **New York City vehicle-related violations**, powered by **Spark**, **PostgreSQL**, **Flask**, and **Streamlit**.
 
@@ -17,21 +17,8 @@ An interactive analytics system for visualizing and querying **New York City veh
 - 🔍 **Search by Summons Number**  
   Look up the detailed record for a specific summons number.
 
----
-
-## ⚙️ Tech Stack
-
-| Layer             | Technology       |
-|------------------|------------------|
-| Data Storage      | PostgreSQL       |
-| Data Processing   | PySpark          |
-| Backend API       | Flask            |
-| Frontend Interface| Streamlit        |
-| ETL Automation    | Python + Spark   |
-| Data Source       | NYC Open Data API|
 
 ---
-
 ## 🧪 ETL Process Overview
 
 1. **Extract**  
@@ -44,6 +31,20 @@ An interactive analytics system for visualizing and querying **New York City veh
 
 3. **Load**  
    - Transformed data loaded into PostgreSQL using batched `to_sql()` (with chunksize)
+
+
+---
+
+## ⚙️ Tech Stack
+
+| Layer             | Technology       |
+|-------------------|------------------|
+| Data Storage      | PostgreSQL       |
+| Data Processing   | PySpark          |
+| Backend API       | Flask            |
+| Frontend Interface| Streamlit        |
+| ETL Process       | Python + Spark   |
+| Data Source       | NYC Open Data API|
 
 ---
 
