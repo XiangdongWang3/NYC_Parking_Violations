@@ -1,4 +1,4 @@
-# 🚨 NYC Vehicle Violation Dashboard
+# NYC Vehicle Violation Dashboard
 
 An interactive analytics system for visualizing and querying **New York City vehicle-related violations**, powered by **Spark**, **PostgreSQL**, **Flask**, and **Streamlit**.
 
@@ -60,7 +60,7 @@ An interactive analytics system for visualizing and querying **New York City veh
 
 ## 📊 Dashboard Interface (Streamlit)
 
-> The dashboard supports flexible date search, visualization, and summons lookup.
+> TBD.
 
 ![Dashboard Screenshot](https://via.placeholder.com/800x400.png?text=Dashboard+Preview)
 
